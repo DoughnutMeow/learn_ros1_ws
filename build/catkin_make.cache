@@ -1,0 +1,2 @@
+example_action_server:example_ros_class:example_ros_msg:example_ros_service:minimal_simulator_controller:stdr_control
+-DCATKIN_DEVEL_PREFIX=/home/doughnut/code/ros1_project/learn_ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/doughnut/code/ros1_project/learn_ros1_ws/install -G Unix Makefiles

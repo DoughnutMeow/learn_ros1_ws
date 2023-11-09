@@ -1,0 +1,3 @@
+catkin_create_pkg stdr_control roscpp geometry_msgs/Twist
+catkin_make时报错
+geometry_msgs/Twist改为geometry_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/doughnut/code/ros1_project/learn_ros1_ws/build/devel/setup.sh

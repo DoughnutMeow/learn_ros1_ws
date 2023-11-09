@@ -1,0 +1,117 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_msg/cmake/example_ros_msg-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"example_ros_msg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_nodejs::@85c46edd8880824b0772"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_example_ros_msg_generate_messages_check_deps_VecOfDoubles::@efbbe3c0b42afc8f3ee8"
+		}
+	],
+	"id" : "example_ros_msg_generate_messages_nodejs::@efbbe3c0b42afc8f3ee8",
+	"name" : "example_ros_msg_generate_messages_nodejs",
+	"paths" : 
+	{
+		"build" : "example_ros_msg",
+		"source" : "example_ros_msg"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_msg/CMakeFiles/example_ros_msg_generate_messages_nodejs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doughnut/code/ros1_project/learn_ros1_ws/devel/share/gennodejs/ros/example_ros_msg/msg/VecOfDoubles.js.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

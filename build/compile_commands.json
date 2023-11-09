@@ -1,0 +1,80 @@
+[
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/gtest/googlemock",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -g -std=c++11 -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc",
+  "output": "gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/gtest/googlemock",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -g -std=c++11 -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc",
+  "output": "gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/gtest/googletest",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest -g -std=c++11 -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc",
+  "output": "gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/gtest/googletest",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -g -std=c++11 -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc",
+  "output": "gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_class",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_class\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/example_ros_class.dir/src/example_ros_class.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_class/src/example_ros_class.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_class/src/example_ros_class.cpp",
+  "output": "example_ros_class/CMakeFiles/example_ros_class.dir/src/example_ros_class.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_class",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_class\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/example_ros_class.dir/src/example_ros_class_main.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_class/src/example_ros_class_main.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_class/src/example_ros_class_main.cpp",
+  "output": "example_ros_class/CMakeFiles/example_ros_class.dir/src/example_ros_class_main.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_msg",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_msg\\\" -I/home/doughnut/code/ros1_project/learn_ros1_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/vector_publisher.dir/src/vector_publisher.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_msg/src/vector_publisher.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_msg/src/vector_publisher.cpp",
+  "output": "example_ros_msg/CMakeFiles/vector_publisher.dir/src/vector_publisher.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_msg",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_msg\\\" -I/home/doughnut/code/ros1_project/learn_ros1_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/vector_subscriber.dir/src/vector_subscriber.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_msg/src/vector_subscriber.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_msg/src/vector_subscriber.cpp",
+  "output": "example_ros_msg/CMakeFiles/vector_subscriber.dir/src/vector_subscriber.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_service",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_service\\\" -I/home/doughnut/code/ros1_project/learn_ros1_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/example_ros_server.dir/src/example_ros_server.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_service/src/example_ros_server.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_service/src/example_ros_server.cpp",
+  "output": "example_ros_service/CMakeFiles/example_ros_server.dir/src/example_ros_server.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_ros_service",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_ros_service\\\" -I/home/doughnut/code/ros1_project/learn_ros1_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/example_ros_client.dir/src/example_ros_client.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_service/src/example_ros_client.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_ros_service/src/example_ros_client.cpp",
+  "output": "example_ros_service/CMakeFiles/example_ros_client.dir/src/example_ros_client.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/minimal_simulator_controller",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"minimal_simulator_controller\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/noetic -g -o CMakeFiles/minimal_simulator.dir/src/minimal_simulator.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/minimal_simulator_controller/src/minimal_simulator.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/minimal_simulator_controller/src/minimal_simulator.cpp",
+  "output": "minimal_simulator_controller/CMakeFiles/minimal_simulator.dir/src/minimal_simulator.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/stdr_control",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"stdr_control\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/stdr_commamder.dir/src/stdr_open_loop_commander.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/stdr_control/src/stdr_open_loop_commander.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/stdr_control/src/stdr_open_loop_commander.cpp",
+  "output": "stdr_control/CMakeFiles/stdr_commamder.dir/src/stdr_open_loop_commander.cpp.o"
+},
+{
+  "directory": "/home/doughnut/code/ros1_project/learn_ros1_ws/build/example_action_server",
+  "command": "/usr/bin/g++ -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"example_action_server\\\" -I/home/doughnut/code/ros1_project/learn_ros1_ws/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -g -o CMakeFiles/example_action_server.dir/src/example_action_server.cpp.o -c /home/doughnut/code/ros1_project/learn_ros1_ws/src/example_action_server/src/example_action_server.cpp",
+  "file": "/home/doughnut/code/ros1_project/learn_ros1_ws/src/example_action_server/src/example_action_server.cpp",
+  "output": "example_action_server/CMakeFiles/example_action_server.dir/src/example_action_server.cpp.o"
+}
+]

@@ -1,0 +1,8 @@
+prefix=/home/doughnut/code/ros1_project/learn_ros1_ws/devel
+
+Name: minimal_simulator_controller
+Description: Description of minimal_simulator_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
